@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=3 uid="uid://ca5cjhtpjvhu"]
+
+[ext_resource type="Script" path="res://scripts/mainMenu.gd" id="1_7jrsi"]
+[ext_resource type="Theme" uid="uid://boij81ghv7j5" path="res://themes/theme.tres" id="1_y0iqj"]
+
+[node name="Main Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( "1_7jrsi" )
+
+[node name="Title" type="Label" parent="."]
+anchor_top = 0.261111
+anchor_right = 1.0
+anchor_bottom = 0.394444
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource( "1_y0iqj" )
+text = "Ancient Roman Vocabulary"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+__meta__ = {
+"_edit_layout_mode": 1,
+"_edit_use_anchors_": true,
+"_edit_use_custom_anchors": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -41.0
+offset_bottom = 41.0
+theme = ExtResource( "1_y0iqj" )
+theme_override_font_sizes/font_size = 16
+text = "It's a rocket because I want it to be a rocket"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+__meta__ = {
+"_edit_layout_mode": 0,
+"_edit_use_custom_anchors": false
+}
+
+[node name="Button" type="Button" parent="."]
+anchor_left = 0.452083
+anchor_top = 0.654167
+anchor_right = 0.547917
+anchor_bottom = 0.697222
+offset_top = 3.05176e-05
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource( "1_y0iqj" )
+text = "Start
+"
+__meta__ = {
+"_edit_layout_mode": 1,
+"_edit_use_anchors_": true,
+"_edit_use_custom_anchors": true
+}
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

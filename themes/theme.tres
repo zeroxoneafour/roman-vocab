@@ -1,0 +1,15 @@
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://boij81ghv7j5"]
+
+[ext_resource type="FontData" uid="uid://clo01rcjf0bgl" path="res://fonts/Roboto-Medium.ttf" id="1_wol5y"]
+
+[sub_resource type="Font" id="Font_tkmv4"]
+data/0 = ExtResource( "1_wol5y" )
+
+[sub_resource type="Font" id="Font_t7ewg"]
+data/0 = ExtResource( "1_wol5y" )
+
+[resource]
+Button/font_sizes/font_size = 32
+Button/fonts/font = SubResource( "Font_tkmv4" )
+Label/font_sizes/font_size = 32
+Label/fonts/font = SubResource( "Font_t7ewg" )

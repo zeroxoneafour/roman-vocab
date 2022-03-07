@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12.276656mm"
+   height="31.400028mm"
+   viewBox="0 0 12.276656 31.400028"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="laser.svg"
+   inkscape:export-filename="/home/vaughanm/Documents/godot/vocab/images/laser.png"
+   inkscape:export-xdpi="960"
+   inkscape:export-ydpi="960"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="201"
+     inkscape:cy="151"
+     inkscape:window-width="1916"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-51.750485,-108.2186)">
+    <path
+       id="path846"
+       style="fill:#ff9955;stroke:#000000"
+       d="m 63.217915,117.20398 -5.329102,20.43337 -5.329102,-20.43337 c -1.437898,-5.51333 2.385919,-8.48538 5.329102,-8.48538 2.943183,0 6.767,2.97205 5.329102,8.48538 z"
+       sodipodi:nodetypes="scsss" />
+  </g>
+</svg>

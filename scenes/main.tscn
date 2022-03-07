@@ -1,0 +1,74 @@
+[gd_scene load_steps=8 format=3 uid="uid://ogva1plq6gf2"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_8of0l"]
+[ext_resource type="PackedScene" uid="uid://wxt6mrf761ma" path="res://scenes/player.tscn" id="1_yxbpl"]
+[ext_resource type="PackedScene" uid="uid://c30htjrmr8h80" path="res://scenes/background.tscn" id="2_bxb52"]
+[ext_resource type="PackedScene" uid="uid://b3wmvspe2in4y" path="res://scenes/asteroid.tscn" id="2_jkjxk"]
+[ext_resource type="PackedScene" uid="uid://dm2rlfllhnuxr" path="res://scenes/laser.tscn" id="3_2hbps"]
+[ext_resource type="PackedScene" uid="uid://ca5cjhtpjvhu" path="res://scenes/mainMenu.tscn" id="3_50txh"]
+[ext_resource type="Theme" uid="uid://boij81ghv7j5" path="res://themes/theme.tres" id="4_ino00"]
+
+[node name="Main" type="Node"]
+script = ExtResource( "1_8of0l" )
+asteroidScene = ExtResource( "2_jkjxk" )
+laserScene = ExtResource( "3_2hbps" )
+
+[node name="Background" parent="." instance=ExtResource( "2_bxb52" )]
+
+[node name="Player" parent="." instance=ExtResource( "1_yxbpl" )]
+position = Vector2(242, 599)
+
+[node name="Main Menu" parent="." instance=ExtResource( "3_50txh" )]
+
+[node name="HUD" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Definition" type="ColorRect" parent="HUD"]
+anchor_right = 1.0
+anchor_bottom = 0.195833
+grow_horizontal = 2
+color = Color(0.384314, 0.384314, 0.384314, 1)
+__meta__ = {
+"_edit_layout_mode": 1,
+"_edit_use_anchors_": true,
+"_edit_use_custom_anchors": true
+}
+
+[node name="Label" type="Label" parent="HUD/Definition"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( "4_ino00" )
+theme_override_font_sizes/font_size = 16
+text = "Testing longer text, as some text can span two lines or more. Honestly this is probably rare."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Score" type="ColorRect" parent="."]
+anchor_left = 0.392708
+anchor_top = 0.944444
+anchor_right = 0.607292
+anchor_bottom = 1.0
+color = Color(0.384314, 0.384314, 0.384314, 1)
+__meta__ = {
+"_edit_layout_mode": 1,
+"_edit_use_anchors_": true,
+"_edit_use_custom_anchors": true
+}
+
+[node name="Label" type="Label" parent="Score"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource( "4_ino00" )
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+__meta__ = {
+"_edit_layout_mode": 1,
+"_edit_use_custom_anchors": false
+}
+
+[connection signal="clickedPlay" from="Main Menu" to="." method="_on_main_menu_clicked_play"]

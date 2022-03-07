@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="41.360134mm"
+   height="43.886658mm"
+   viewBox="0 0 41.360134 43.886658"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="asteroid.svg"
+   inkscape:export-filename="/home/vaughanm/Documents/godot/vocab/images/asteroid.png"
+   inkscape:export-xdpi="960"
+   inkscape:export-ydpi="960"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.79375"
+     inkscape:cx="189.6063"
+     inkscape:cy="228.66142"
+     inkscape:window-width="1916"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-54.808791,-88.111631)">
+    <path
+       id="path846"
+       style="fill:#7f7f7f;stroke:#000000"
+       d="m 95.668927,112.92015 c -10e-7,7.26795 -3.399383,5.06684 -9.089535,9.04923 -3.776916,2.64337 -4.730202,9.52891 -9.765867,9.52891 -5.729767,0 -7.829449,-4.60976 -11.840679,-7.94693 -4.825175,-4.01433 -9.664054,-6.87384 -9.664055,-13.47683 -10e-7,-5.16055 4.373893,-7.7366 7.491561,-11.479184 4.187632,-5.027014 5.567507,-9.983715 12.802958,-9.983715 5.737936,0 10.022014,5.091028 14.03546,8.436709 4.815257,4.01409 6.030159,9.27663 6.030157,15.87181 z"
+       sodipodi:nodetypes="sssssssss" />
+    <ellipse
+       style="fill:#3f3f3f;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="path1410"
+       cx="67.094727"
+       cy="111.81777"
+       rx="2.2589517"
+       ry="3.9208627" />
+    <ellipse
+       style="fill:#3f3f3f;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="path1410-5"
+       cx="78.671066"
+       cy="115.68262"
+       rx="2.2589517"
+       ry="3.9208627" />
+    <ellipse
+       style="fill:#3f3f3f;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="path1410-5-2"
+       cx="78.952904"
+       cy="101.21564"
+       rx="2.2589517"
+       ry="3.9208627" />
+  </g>
+</svg>
